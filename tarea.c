@@ -47,7 +47,7 @@ void mostrar(int m[][3])
 	{
 		for(int j=0;j<column;j++)
 		{
-			printf("%i ",m[i][j] + m[i][j] / 8);
+			printf("%i ",m[i][j] + m[i][j] / 6);
 		}
 		printf("\n");
 	}
